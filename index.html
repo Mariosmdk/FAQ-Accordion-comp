@@ -4,37 +4,81 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+  <main role="main">
+    <section class="main-illustrations">
+      <img src="/assets/images/illustration-woman-online-desktop.svg" alt="">
+    </section>
+    <section class="main-wrapper">
+      <h1>FAQ</h1>
+        <article>
+          <div class="header">
+            <label for="a">
+            How many team members can I invite?
+            </label>
+            <input type="radio" id="a">
+          </div>
+          <p> can invite up to 2 additional users on the Free plan. There is no limit on 
+          team members for the Premium plan.
+          </p>
+        </article>
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+        <article>
+          <div class="header">
+        <label for="b">
+          What is the maximum file upload size?
+          </label>
+          <input type="radio" id="b">
+        </div>
+         <p> No more than 2GB. All files in your account must fit your allotted storage space.
+          </p>
+        </article>
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
+        <article>
+          <div class="header">
+          <label for="c">
+          How do I reset my password?
+          </label>
+          <input type="radio" id="c">
+        </div>
+          <p>Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.
+          </p>
+        </article>
 
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
+        <article>
+          <div class="header">
+          <label for="d">
+          Can I cancel my subscription?
+          </label>
+          <input type="radio" id="d">
+        </div>
+          <p>Yes! Send us a message and we’ll process your request no questions asked.
+          </p>
+          </article>
 
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <article>
+          <label for="e">
+            <div class="header">
+          Do you provide additional support?
+          </label>
+          <input type="radio" id="e">
+        </div>
+          <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </p>
+          </article>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://mariosnks.com">Marios Nks</a>.
+    </div>
+  </main>
 </body>
 </html>
