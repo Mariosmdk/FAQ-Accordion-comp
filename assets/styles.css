@@ -39,7 +39,7 @@ body{
 }
 
 main{
-    width: 80%;
+    width: 70%;
     height: 500px;
     display: flex;
     flex-direction: row;
@@ -56,19 +56,19 @@ main{
 #main_img_dt{
     position: relative;
     right: 90px;
-    clip-path: polygon(16.5% 0, 100% 2%, 100% 100%, 16.5% 100%);
+    clip-path: polygon(18.7% 0, 100% 2%, 100% 100%, 18.7% 100%);
 }
 #box_img{
     position: absolute;
     top: 400px;
-    left: 160px;
+    left: 100px;
 }
 #pattern_img_dt{
     position: absolute;
     width: 1000px;
     top: -110px;
-    left: -320px;
-    clip-path: polygon(60.5% 31.5%, 100% 31.5%, 100% 85%, 60.5% 85%);
+    left: -400px;
+    clip-path: polygon(61.5% 31.5%, 100% 31.5%, 100% 85%, 61.5% 85%);
 }
 section{
     width: 40%;
@@ -83,12 +83,22 @@ section{
 }
 .header div{
     color: var(--Very-dark-grayish-blue);
-    font-size: 1.4em;
-    
-    
+    font-size: 1.3em;
 }
+.header div:hover, .chevron-down{
+    color: var(--Soft-red);
+    cursor: pointer;
+}
+.header div:active{
+    color: var(--Very-dark-desaturated-blue);
+    font-weight: 700;
+}
+
 .chevron-down{
     width: 25px;
     height: 15px;
     margin: 0 0 -5px 0;
+}
+.chevron-down:active{
+    transform: rotateX(0.5turn);
 }
