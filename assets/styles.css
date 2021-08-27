@@ -109,6 +109,7 @@ section{
     transform: rotateX(0.5turn);
 }
 
+
 @media only screen and (min-width: 1441px) and (max-width: 1920px){
     main{
         width: 60%;
@@ -122,9 +123,12 @@ section{
     #main_img_mb{
         display: none;
     }
+    #pattern_img_mb{
+        display: none;
+    }
 }
 
-@media only screen and (min-width: 1280px) and (max-width: 1439px){
+@media only screen and (min-width: 1280px) and (max-width: 1440px){
     main{
         width: 80%;
     }
@@ -135,6 +139,9 @@ section{
         left: -490px;
     }
     #main_img_mb{
+        display: none;
+    }
+    #pattern_img_mb{
         display: none;
     }
 }
@@ -174,6 +181,7 @@ section{
         width: 400px;
         top: 200px;
     }
+    
    
 }
 
